@@ -7,7 +7,7 @@ public class SolutionsTests {
 
 
   @Test
-  void checkEnterprisePage(){
+  void checkEnterprisePage() {
 
     open("https://github.com/");
     $("ul > li:nth-child(2) > button").hover();
